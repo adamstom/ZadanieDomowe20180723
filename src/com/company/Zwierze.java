@@ -6,6 +6,8 @@ public class Zwierze {
     public Zwierze(String imie, Integer wiek){
         setImie(imie);
         setWiek(wiek);
+        //TODO powiniśmy użyć słowa this
+        //np. this.imie = imie;
     }
 
     public String getImie() {
@@ -23,6 +25,8 @@ public class Zwierze {
     public void setWiek(Integer wiek) {
         this.wiek = wiek;
     }
+
+    //TODO metoda toString powinna być na samym dole klasy
     @Override
     public String toString(){
         return("Jestem zwierzęciem o imieniu "+this.getImie()+" i mam "+this.getWiek()+" lat.");

@@ -1,6 +1,7 @@
 package com.company;
 
 public class Kot extends Zwierze{
+    //TODO konstrukotr powinien znajdować się po deklaracji pól w klasie
     public Kot(String imie, Integer wiek) {
         super(imie, wiek);
     }

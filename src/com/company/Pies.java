@@ -1,6 +1,7 @@
 package com.company;
 
 public class Pies extends Zwierze{
+    //TODO konstrukotr powinien znajdować się po deklaracji pól w klasie
     public Pies(String imie, Integer wiek) {
         super(imie, wiek);
     }

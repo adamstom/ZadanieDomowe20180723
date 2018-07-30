@@ -61,6 +61,7 @@ public class Main {
 //        tak stworzona lista jest traktowana jako tablica i nie można usówać w niej elemontów jak w normalnej liście
 //        listaIntegerow.remove(0);
 //        listaIntegerow.remove(listaIntegerow.size()-1);
+        //TODO dokładnie chodziło o znalezienie tego - należało użyć new ArrayList<>(Arrays.asList(...));
         System.out.println("tak stworzona lista jest traktowana jako tablica i nie można usówać w niej elemontów jak w normalnej liście");
         System.out.println("Chyba że źle zrozumiałem polecenie:  Do listy dodajemy 15 elementów poprzez wykorzystanie Arrays.asList () ");
 //        System.out.println("Po usunięciu 1 i ostatniej pozycji wielkość powyższej listy to "+listaIntegerow.size()+" pozycji.");
@@ -136,6 +137,7 @@ public class Main {
         do{
             flagaDodaniaImienia=true;
             odczytaneImie = scanner10.nextLine();
+            //TODO pomysł bardzo dobry ale chodziło o wykorzystanie - Set<> .Ale takie rozwiązanie jest OK.
             for(String imie : listaImion){
                 if(odczytaneImie.equalsIgnoreCase(imie)){
                     flagaDodaniaImienia=false;
